@@ -8,7 +8,7 @@
 }
 
 body {
-    color: #ededed;
+    color: #081b29;
 }
 
 .header {
@@ -38,7 +38,6 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: red;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
@@ -55,10 +54,12 @@ body {
 .navbar a.active {
         color: #00abf0;  
     }
+    #pic3{
+        position: relative; left: 200px;
+    }
 
     .home {
         height: 100vh;
-        background: url('home.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -84,7 +85,7 @@ body {
         right: 0;
         width: 100%;
         height: 100%;
-        background: red;
+        background: transparent;
         animation: showRight 1s ease forwards;
         animation-delay: .1s;
     }
@@ -279,14 +280,14 @@ body {
     opacity: .8;
 }
 
- .home-imgHover::after{
+ .home-imgHover::after {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     width: 120%;
     height: 100%;
-    background: red;
+    background: transparent;
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
     z-index: 100;
